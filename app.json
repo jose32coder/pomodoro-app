@@ -4,7 +4,7 @@
     "slug": "pomodoro-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/timer.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -17,18 +17,24 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/timer.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.josemanu36.pomodoroapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/timer.png"
     },
     "extra": {
       "eas": {
         "projectId": "a0c63bf2-3656-499d-915a-226660a06cbd"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a0c63bf2-3656-499d-915a-226660a06cbd"
     }
   }
 }
